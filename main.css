@@ -19,6 +19,7 @@ header {
   padding-right: 20px;
   justify-content: space-between;
   border: 3px solid #444444;
+  border-radius: 30px;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav ul {
   font-size: 20px;
   margin: 0 5px;
   transition: 300ms;
+  border-radius: 30px;
 }
 
 .menu:hover {
@@ -69,6 +71,7 @@ main {
   padding-bottom: 50px;
   padding-left: 100px;
   padding-right: 200px;
+  border-radius: 30px;
 }
 
 h1 {
