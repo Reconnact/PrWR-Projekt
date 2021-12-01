@@ -109,7 +109,21 @@ footer {
   width: 100%;
 }
 
+.img {
+  width: 256px;
+  height: 256px;
+}
 
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.person_text {
+  font-size: 20px;
+  padding-left: 20px;
+}
 
 #stars {
   z-index: -1;
