@@ -112,6 +112,8 @@ footer {
 
 
 #stars {
+  z-index: -1;
+  position: relative;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -119,8 +121,9 @@ footer {
   animation: animStar 50s linear infinite;
 }
 #stars:after {
+  z-index: -1;
+  position:relative;
   content: " ";
-  position: absolute;
   top: 2000px;
   width: 1px;
   height: 1px;
@@ -129,6 +132,8 @@ footer {
 }
 
 #stars2 {
+  z-index: -1;
+  position:relative;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -137,7 +142,8 @@ footer {
 }
 #stars2:after {
   content: " ";
-  position: absolute;
+  z-index: -1;
+  position:relative;
   top: 2000px;
   width: 2px;
   height: 2px;
@@ -146,6 +152,8 @@ footer {
 }
 
 #stars3 {
+  z-index: -1;
+  position:relative;
   width: 3px;
   height: 3px;
   background: transparent;
@@ -154,7 +162,8 @@ footer {
 }
 #stars3:after {
   content: " ";
-  position: absolute;
+  z-index: -1;
+  position:relative;
   top: 2000px;
   width: 3px;
   height: 3px;
