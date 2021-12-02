@@ -17,7 +17,7 @@ header {
   align-items: center;
   margin-top: 150px;
   margin-bottom: 100px;
-  padding-left: 40px;
+  padding-left: 50px;
   padding-right: 20px;
   justify-content: space-between;
   border: 3px solid #444444;
@@ -46,8 +46,7 @@ nav ul {
 
 .navButton:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: none;
-}
+  }
 
 a:link {
   color: black;
