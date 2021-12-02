@@ -39,7 +39,7 @@ nav ul {
   border-radius: 30px;
 }
 
-.menu:hover {
+.link:hover {
   color:rgb(97, 97, 247);
   text-decoration: underline;
 }
@@ -149,14 +149,18 @@ footer {
   height: 265px;
   padding: 10px;
   position: absolute;
+  text-align: center;
   background-color:rgb(255, 255, 255);
   visibility: none;
   opacity: 0;
   transition: opacity 0.3s;
 }
 
+.person_text img {
+  position: relative; top: 3.5px; height: 16px; width: 16px;
+}
+
 .person:hover .person_text{
-  cursor: pointer;
   visibility: visible;
   opacity:  1;
 }
