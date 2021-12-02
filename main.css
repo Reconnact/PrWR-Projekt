@@ -39,6 +39,7 @@ nav ul {
   border-radius: 30px;
 }
 
+
 .link:hover {
   color:rgb(97, 97, 247);
   text-decoration: underline;
@@ -49,12 +50,12 @@ nav ul {
   }
 
 a:link {
-  color: black;
+  color: rgb(81, 112, 196);
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: rgb(134, 53, 158);
   text-decoration: none;
 }
 
@@ -96,7 +97,7 @@ h1 {
 }
 
 .paragraph {
-  font-size: 25px;
+  font-size: 15px;
   font-family: Noto Sans, sans-serif;
   margin-bottom: 100px;
 }
