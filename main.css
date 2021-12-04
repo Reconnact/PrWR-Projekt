@@ -204,6 +204,12 @@ footer {
   font-family: Noto Sans, sans-serif;
 }
 
+.textWithPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #stars {
   z-index: -1;
   position: relative;
