@@ -77,19 +77,19 @@ main {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
+  display: none;
+  position: fixed;
   bottom: 20px;
-  right: 120px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
+  right: 120px;
+  z-index: 99;
   border: 2px solid #e8e8e8;
-  outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 30px; /* Rounded corners */
-  font-size: 20px; /* Increase font size */
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
   transition: 300ms;
   width: 100px;
   font-family: Noto Sans, sans-serif;
@@ -772,7 +772,7 @@ footer {
   }
 }
 
-/*  
+
 @media only screen and (max-width: 600px) {
 header {
   display: flex;
@@ -780,7 +780,7 @@ header {
   height: 30px;
   align-items: left;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 10px;
   justify-content: space-between;
@@ -832,16 +832,16 @@ li {
   display: list-item;
   border: 1px solid white;
   font-family: Noto Sans, sans-serif;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 main {
   background-color: white;
   border: 4px solid #444444;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
   border-radius: 30px;
 }
 
@@ -856,17 +856,17 @@ h1 {
 
 .contents {
   border: 1px solid black;
-  width: 310px;
+  width: 200px;
   margin: 50px 0px 100px 0px;
 }
 
 .title {
-  font-size: 60px;
+  font-size: 30px;
   font-family: Noto Sans, sans-serif;
 }
 
 .paragraph {
-  font-size: 25px;
+  font-size: 10px;
   font-family: Noto Sans, sans-serif;
   margin-bottom: 100px;
 }
@@ -942,4 +942,24 @@ footer {
 .opinion {
   text-align: center;
 }
-}*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: 2px solid #e8e8e8;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 300ms;
+  width: 60px;
+  font-size: 15px;
+  font-family: Noto Sans, sans-serif;
+}
+}
