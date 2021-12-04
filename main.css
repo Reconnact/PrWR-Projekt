@@ -130,7 +130,7 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #444444;
-  width: 100%;
+  widh: 100%;
 }
 
 .container {
@@ -206,7 +206,7 @@ footer {
 
 .textWithPhoto {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
