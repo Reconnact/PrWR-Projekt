@@ -135,6 +135,11 @@ footer {
   width: 100%;
 }
 
+.bild{
+  height:80%;
+  width:80%;
+}
+
 .container {
   width: 850px;
   height: 265px;
@@ -995,5 +1000,10 @@ footer {
     width: 60px;
     font-size: 15px;
     font-family: Noto Sans, sans-serif;
+  }
+
+  .bild{
+    height:40%;
+    width:100%;
   }
 }
