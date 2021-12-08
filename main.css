@@ -75,6 +75,7 @@ main {
   padding-left: 100px;
   padding-right: 200px;
   border-radius: 30px;
+  
 }
 
 #myBtn {
@@ -200,8 +201,10 @@ footer {
 }
 
 .opinion {
-  margin-left: 45%;
-  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: Noto Sans, sans-serif;
 }
 
