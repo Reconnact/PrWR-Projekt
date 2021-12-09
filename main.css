@@ -140,7 +140,7 @@ footer {
   height:60%;
   width: 60%;
   margin-left: 25%;
-}
+  box-shadow: rgba(122, 122, 122, 0.3) 12.5px 12.5px}
 
 .container {
   width: 850px;
