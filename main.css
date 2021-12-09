@@ -124,6 +124,7 @@ h1 {
 
 .paragraph {
   font-size: 15px;
+  align-items: left;
   font-family: Noto Sans, sans-serif;
   margin-bottom: 100px;
 }
@@ -136,8 +137,9 @@ footer {
 }
 
 .bild{
-  height:80%;
-  width:80%;
+  height:60%;
+  width: 60%;
+  margin-left: 25%;
 }
 
 .container {
@@ -214,12 +216,6 @@ footer {
   font-size: small;
 }
 
-.textWithPhoto {
-  display: flex;
-  align-items: left;
-  justify-content: center;
-}
-
 @media only screen and (max-width: 600px) {
   header {
     display: flex;
@@ -256,7 +252,7 @@ footer {
   }
 
   .logo {
-    width: 100px;
+    width: 56.25px;
     height: 56.25px;
   }
 
