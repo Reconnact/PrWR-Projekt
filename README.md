@@ -1,2 +1,2 @@
 # PrWR-Projekt
-PrWR projekt von der Klasse I2a
+PrWR projekt von Jakub Korona, Philip Jovanovic & Hermann Witte.
